@@ -40,7 +40,8 @@
       " lightline
       set laststatus=2
       set noshowmode
-
+      syntax enable 
+      set number
       " ale python
       let g:ale_python_auto_pipenv = 0
       let g:ale_python_flake8_executable = '${pkgs.python3.pkgs.flake8}/bin/flake8'

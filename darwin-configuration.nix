@@ -13,7 +13,7 @@
   # Used for backwards compatibility, please read the changelog before changing.
   system.stateVersion = 3;
 
-  users.users."george.whewell" = {
+  users.users."john.higgins" = {
     shell = pkgs.zsh;
   };
 
